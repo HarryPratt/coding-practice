@@ -17,7 +17,7 @@ def test_dir(tmpdir):
 
 def test_dir2(tmpdir):
     import os
-
+    import json
     print(tmpdir)
     assert os.path.exists(tmpdir)
 
