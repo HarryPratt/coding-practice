@@ -1,23 +1,56 @@
 # This code is an example of pytest testing
-import pytest
 import unittest
+
+import pytest
+
 from Endonacci import *
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 def input(x, y):
     return type(x), type(y)
 
 
+
 def test_dir(tmpdir):
     import os
 
     print(tmpdir)
+
+
+
+
+
+
+
     assert os.path.exists(tmpdir)
 
 
 def test_dir2(tmpdir):
     import os
     import json
+
     print(tmpdir)
     assert os.path.exists(tmpdir)
 
