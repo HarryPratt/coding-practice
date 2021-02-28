@@ -6,43 +6,14 @@ import pytest
 from Endonacci import *
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 def input(x, y):
     return type(x), type(y)
-
 
 
 def test_dir(tmpdir):
     import os
 
     print(tmpdir)
-
-
-
-
-
-
 
     assert os.path.exists(tmpdir)
 
